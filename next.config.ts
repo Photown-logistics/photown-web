@@ -1,17 +1,15 @@
 import type { NextConfig } from "next";
 
 
-const isProduction = process.env.NODE_ENV === "production";
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: isProduction ? "/photown-web" : "",
-  output: "export",
-  distDir: "dist",
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true
+  output: 'export', // Important for static HTML export
+  trailingSlash: true, // Ensures routes become `/about/` instead of `/about`
+  assetPrefix: isProd ? '/photown-web/' : '',
+  basePath: isProd ? '/photown-web' : '',
+
 };
 
 export default nextConfig;
