@@ -68,7 +68,7 @@ const Header = () => {
          
 
             <a href="/what-we-do" className="block px-3 py-2 rounded text-blue-900 hover:bg-gray-100">
-              How We Do
+               What We Do
             </a>
 
 
