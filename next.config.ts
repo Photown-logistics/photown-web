@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   basePath: isProduction ? "/photown-web" : "",
   output: "export",
-  distDir: "dist",
+  distDir: "out",
   trailingSlash: true,
 };
 
