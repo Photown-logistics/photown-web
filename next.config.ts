@@ -7,8 +7,11 @@ const nextConfig: NextConfig = {
   /* config options here */
   basePath: isProduction ? "/photown-web" : "",
   output: "export",
-  distDir: "out",
-  trailingSlash: true,
+  distDir: "dist",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true
 };
 
 export default nextConfig;
