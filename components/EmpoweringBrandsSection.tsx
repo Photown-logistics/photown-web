@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import GettingStartedButton from "./mini/GettingStartedButton";
 
-const texts = ["Faster Deliveries", "1 Hour Delivery", "10 minutes Delivery"];
+const texts = ["Faster Deliveries",  "10 minutes Delivery", "1 Hour Delivery", "2 Hour Delivery","Same-Day Delivery"];
 
 const EmpoweringBrandsSection = () => {
     const [text, setText] = useState("Faster Deliveries");

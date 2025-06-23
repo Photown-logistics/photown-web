@@ -1,4 +1,5 @@
 import Growth from "@/components/growth";
+import DeliveryAnimation from "@/components/mini/DeliveryAnimation";
 import PartnerWithUsButton from "@/components/mini/PartnerWithUsButton";
 import PartnerWithUsButtonMobile from "@/components/mini/PartnerWithUsButtonMobile";
 import PartnerWithUs from "@/components/partner-with-us";
@@ -49,7 +50,7 @@ export default function Home() {
             <span className="text-brand-dark ">Deliveries for Consumer Brands</span>
           </h1>
           <p className="text-2xl text-gray-700 mb-6 ">
-            Delivering Your Orders in Just 4 Hours with Our Innovative
+            Delivering Your Orders in Just <DeliveryAnimation /> with Our Innovative
             Micro-Warehousing Network
           </p>
           <PartnerWithUsButton />
