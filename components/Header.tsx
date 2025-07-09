@@ -10,14 +10,14 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm p-6">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+    <header className="sticky top-0 z-50 bg-white shadow-sm px-6 py-4">
+      <div className="container mx-auto px-6 py-1 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <a href="/">
             <div className="flex items-center cursor-pointer">
               <Image
-                src="/assets/images/full_logo.svg"
+                src="assets/images/logo_new.svg"
                 alt="PHO-TAWN Logo"
                 width={200}
                 height={80}
